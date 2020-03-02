@@ -334,6 +334,11 @@ public class JMSConstants {
      public static final String QUEUE_PREFIX = "queue.";
 
      /**
+     * The message type of a receiving payload
+     * */
+     public static final String MESSAGE_TYPE = "messageType";
+
+     /**
       * Andes Naming Factory
       * */
      public static final String ANDES_NAMING_FACTORY = "org.wso2.andes.jndi.PropertiesFileInitialContextFactory";
